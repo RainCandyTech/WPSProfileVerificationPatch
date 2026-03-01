@@ -168,1134 +168,1134 @@
 BCryptAddContextFunction
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 0
+  add x16, x16, #0
   ldr x16, [x16]
   br x16
 
 BCryptAddContextFunctionProvider
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 8
+  add x16, x16, #8
   ldr x16, [x16]
   br x16
 
 BCryptCloseAlgorithmProvider
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 16
+  add x16, x16, #16
   ldr x16, [x16]
   br x16
 
 BCryptConfigureContext
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 24
+  add x16, x16, #24
   ldr x16, [x16]
   br x16
 
 BCryptConfigureContextFunction
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 32
+  add x16, x16, #32
   ldr x16, [x16]
   br x16
 
 BCryptCreateContext
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 40
+  add x16, x16, #40
   ldr x16, [x16]
   br x16
 
 BCryptCreateHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 48
+  add x16, x16, #48
   ldr x16, [x16]
   br x16
 
 BCryptCreateMultiHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 56
+  add x16, x16, #56
   ldr x16, [x16]
   br x16
 
 BCryptDecapsulate
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 64
+  add x16, x16, #64
   ldr x16, [x16]
   br x16
 
 BCryptDecrypt
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 72
+  add x16, x16, #72
   ldr x16, [x16]
   br x16
 
 BCryptDeleteContext
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 80
+  add x16, x16, #80
   ldr x16, [x16]
   br x16
 
 BCryptDeriveKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 88
+  add x16, x16, #88
   ldr x16, [x16]
   br x16
 
 BCryptDeriveKeyCapi
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 96
+  add x16, x16, #96
   ldr x16, [x16]
   br x16
 
 BCryptDeriveKeyPBKDF2
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 104
+  add x16, x16, #104
   ldr x16, [x16]
   br x16
 
 BCryptDestroyHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 112
+  add x16, x16, #112
   ldr x16, [x16]
   br x16
 
 BCryptDestroyKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 120
+  add x16, x16, #120
   ldr x16, [x16]
   br x16
 
 BCryptDestroySecret
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 128
+  add x16, x16, #128
   ldr x16, [x16]
   br x16
 
 BCryptDuplicateHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 136
+  add x16, x16, #136
   ldr x16, [x16]
   br x16
 
 BCryptDuplicateKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 144
+  add x16, x16, #144
   ldr x16, [x16]
   br x16
 
 BCryptEncapsulate
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 152
+  add x16, x16, #152
   ldr x16, [x16]
   br x16
 
 BCryptEncrypt
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 160
+  add x16, x16, #160
   ldr x16, [x16]
   br x16
 
 BCryptEnumAlgorithms
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 168
+  add x16, x16, #168
   ldr x16, [x16]
   br x16
 
 BCryptEnumContextFunctionProviders
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 176
+  add x16, x16, #176
   ldr x16, [x16]
   br x16
 
 BCryptEnumContextFunctions
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 184
+  add x16, x16, #184
   ldr x16, [x16]
   br x16
 
 BCryptEnumContexts
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 192
+  add x16, x16, #192
   ldr x16, [x16]
   br x16
 
 BCryptEnumProviders
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 200
+  add x16, x16, #200
   ldr x16, [x16]
   br x16
 
 BCryptEnumRegisteredProviders
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 208
+  add x16, x16, #208
   ldr x16, [x16]
   br x16
 
 BCryptExportKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 216
+  add x16, x16, #216
   ldr x16, [x16]
   br x16
 
 BCryptFinalizeKeyPair
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 224
+  add x16, x16, #224
   ldr x16, [x16]
   br x16
 
 BCryptFinishHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 232
+  add x16, x16, #232
   ldr x16, [x16]
   br x16
 
 BCryptFreeBuffer
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 240
+  add x16, x16, #240
   ldr x16, [x16]
   br x16
 
 BCryptGenRandom
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 248
+  add x16, x16, #248
   ldr x16, [x16]
   br x16
 
 BCryptGenerateKeyPair
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 256
+  add x16, x16, #256
   ldr x16, [x16]
   br x16
 
 BCryptGenerateSymmetricKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 264
+  add x16, x16, #264
   ldr x16, [x16]
   br x16
 
 BCryptGetFipsAlgorithmMode
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 272
+  add x16, x16, #272
   ldr x16, [x16]
   br x16
 
 BCryptGetProperty
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 280
+  add x16, x16, #280
   ldr x16, [x16]
   br x16
 
 BCryptHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 288
+  add x16, x16, #288
   ldr x16, [x16]
   br x16
 
 BCryptHashData
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 296
+  add x16, x16, #296
   ldr x16, [x16]
   br x16
 
 BCryptImportKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 304
+  add x16, x16, #304
   ldr x16, [x16]
   br x16
 
 BCryptImportKeyPair
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 312
+  add x16, x16, #312
   ldr x16, [x16]
   br x16
 
 BCryptKeyDerivation
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 320
+  add x16, x16, #320
   ldr x16, [x16]
   br x16
 
 BCryptOpenAlgorithmProvider
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 328
+  add x16, x16, #328
   ldr x16, [x16]
   br x16
 
 BCryptProcessMultiOperations
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 336
+  add x16, x16, #336
   ldr x16, [x16]
   br x16
 
 BCryptQueryContextConfiguration
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 344
+  add x16, x16, #344
   ldr x16, [x16]
   br x16
 
 BCryptQueryContextFunctionConfiguration
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 352
+  add x16, x16, #352
   ldr x16, [x16]
   br x16
 
 BCryptQueryContextFunctionProperty
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 360
+  add x16, x16, #360
   ldr x16, [x16]
   br x16
 
 BCryptQueryProviderRegistration
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 368
+  add x16, x16, #368
   ldr x16, [x16]
   br x16
 
 BCryptRegisterConfigChangeNotify
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 376
+  add x16, x16, #376
   ldr x16, [x16]
   br x16
 
 BCryptRegisterProvider
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 384
+  add x16, x16, #384
   ldr x16, [x16]
   br x16
 
 BCryptRemoveContextFunction
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 392
+  add x16, x16, #392
   ldr x16, [x16]
   br x16
 
 BCryptRemoveContextFunctionProvider
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 400
+  add x16, x16, #400
   ldr x16, [x16]
   br x16
 
 BCryptResolveProviders
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 408
+  add x16, x16, #408
   ldr x16, [x16]
   br x16
 
 BCryptSecretAgreement
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 416
+  add x16, x16, #416
   ldr x16, [x16]
   br x16
 
 BCryptSetAuditingInterface
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 424
+  add x16, x16, #424
   ldr x16, [x16]
   br x16
 
 BCryptSetContextFunctionProperty
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 432
+  add x16, x16, #432
   ldr x16, [x16]
   br x16
 
 BCryptSetProperty
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 440
+  add x16, x16, #440
   ldr x16, [x16]
   br x16
 
 BCryptSignHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 448
+  add x16, x16, #448
   ldr x16, [x16]
   br x16
 
 BCryptUnregisterConfigChangeNotify
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 456
+  add x16, x16, #456
   ldr x16, [x16]
   br x16
 
 BCryptUnregisterProvider
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 464
+  add x16, x16, #464
   ldr x16, [x16]
   br x16
 
 BCryptVerifySignature
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 472
+  add x16, x16, #472
   ldr x16, [x16]
   br x16
 
 GetIsolationServerInterface
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 480
+  add x16, x16, #480
   ldr x16, [x16]
   br x16
 
 GetKeyStorageInterface
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 488
+  add x16, x16, #488
   ldr x16, [x16]
   br x16
 
 GetSChannelInterface
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 496
+  add x16, x16, #496
   ldr x16, [x16]
   br x16
 
 NCryptCloseKeyProtector
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 504
+  add x16, x16, #504
   ldr x16, [x16]
   br x16
 
 NCryptCloseProtectionDescriptor
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 512
+  add x16, x16, #512
   ldr x16, [x16]
   br x16
 
 NCryptCreateClaim
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 520
+  add x16, x16, #520
   ldr x16, [x16]
   br x16
 
 NCryptCreatePersistedKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 528
+  add x16, x16, #528
   ldr x16, [x16]
   br x16
 
 NCryptCreateProtectionDescriptor
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 536
+  add x16, x16, #536
   ldr x16, [x16]
   br x16
 
 NCryptDecapsulate
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 544
+  add x16, x16, #544
   ldr x16, [x16]
   br x16
 
 NCryptDecrypt
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 552
+  add x16, x16, #552
   ldr x16, [x16]
   br x16
 
 NCryptDeleteKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 560
+  add x16, x16, #560
   ldr x16, [x16]
   br x16
 
 NCryptDeriveKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 568
+  add x16, x16, #568
   ldr x16, [x16]
   br x16
 
 NCryptDuplicateKeyProtectorHandle
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 576
+  add x16, x16, #576
   ldr x16, [x16]
   br x16
 
 NCryptEncapsulate
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 584
+  add x16, x16, #584
   ldr x16, [x16]
   br x16
 
 NCryptEncrypt
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 592
+  add x16, x16, #592
   ldr x16, [x16]
   br x16
 
 NCryptEnumAlgorithms
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 600
+  add x16, x16, #600
   ldr x16, [x16]
   br x16
 
 NCryptEnumKeys
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 608
+  add x16, x16, #608
   ldr x16, [x16]
   br x16
 
 NCryptEnumStorageProviders
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 616
+  add x16, x16, #616
   ldr x16, [x16]
   br x16
 
 NCryptExportKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 624
+  add x16, x16, #624
   ldr x16, [x16]
   br x16
 
 NCryptFinalizeKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 632
+  add x16, x16, #632
   ldr x16, [x16]
   br x16
 
 NCryptFreeBuffer
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 640
+  add x16, x16, #640
   ldr x16, [x16]
   br x16
 
 NCryptFreeObject
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 648
+  add x16, x16, #648
   ldr x16, [x16]
   br x16
 
 NCryptGetProperty
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 656
+  add x16, x16, #656
   ldr x16, [x16]
   br x16
 
 NCryptGetProtectionDescriptorInfo
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 664
+  add x16, x16, #664
   ldr x16, [x16]
   br x16
 
 NCryptImportKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 672
+  add x16, x16, #672
   ldr x16, [x16]
   br x16
 
 NCryptIsAlgSupported
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 680
+  add x16, x16, #680
   ldr x16, [x16]
   br x16
 
 NCryptIsKeyHandle
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 688
+  add x16, x16, #688
   ldr x16, [x16]
   br x16
 
 NCryptKeyDerivation
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 696
+  add x16, x16, #696
   ldr x16, [x16]
   br x16
 
 NCryptNotifyChangeKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 704
+  add x16, x16, #704
   ldr x16, [x16]
   br x16
 
 NCryptOpenKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 712
+  add x16, x16, #712
   ldr x16, [x16]
   br x16
 
 NCryptOpenKeyProtector
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 720
+  add x16, x16, #720
   ldr x16, [x16]
   br x16
 
 NCryptOpenStorageProvider
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 728
+  add x16, x16, #728
   ldr x16, [x16]
   br x16
 
 NCryptProtectKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 736
+  add x16, x16, #736
   ldr x16, [x16]
   br x16
 
 NCryptProtectSecret
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 744
+  add x16, x16, #744
   ldr x16, [x16]
   br x16
 
 NCryptQueryProtectionDescriptorName
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 752
+  add x16, x16, #752
   ldr x16, [x16]
   br x16
 
 NCryptRegisterProtectionDescriptorName
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 760
+  add x16, x16, #760
   ldr x16, [x16]
   br x16
 
 NCryptSecretAgreement
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 768
+  add x16, x16, #768
   ldr x16, [x16]
   br x16
 
 NCryptSetAuditingInterface
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 776
+  add x16, x16, #776
   ldr x16, [x16]
   br x16
 
 NCryptSetProperty
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 784
+  add x16, x16, #784
   ldr x16, [x16]
   br x16
 
 NCryptSignHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 792
+  add x16, x16, #792
   ldr x16, [x16]
   br x16
 
 NCryptStreamClose
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 800
+  add x16, x16, #800
   ldr x16, [x16]
   br x16
 
 NCryptStreamOpenToProtect
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 808
+  add x16, x16, #808
   ldr x16, [x16]
   br x16
 
 NCryptStreamOpenToUnprotect
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 816
+  add x16, x16, #816
   ldr x16, [x16]
   br x16
 
 NCryptStreamOpenToUnprotectEx
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 824
+  add x16, x16, #824
   ldr x16, [x16]
   br x16
 
 NCryptStreamUpdate
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 832
+  add x16, x16, #832
   ldr x16, [x16]
   br x16
 
 NCryptTranslateHandle
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 840
+  add x16, x16, #840
   ldr x16, [x16]
   br x16
 
 NCryptUnprotectKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 848
+  add x16, x16, #848
   ldr x16, [x16]
   br x16
 
 NCryptUnprotectSecret
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 856
+  add x16, x16, #856
   ldr x16, [x16]
   br x16
 
 NCryptVerifyClaim
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 864
+  add x16, x16, #864
   ldr x16, [x16]
   br x16
 
 NCryptVerifySignature
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 872
+  add x16, x16, #872
   ldr x16, [x16]
   br x16
 
 SslChangeNotify
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 880
+  add x16, x16, #880
   ldr x16, [x16]
   br x16
 
 SslCombineKeys
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 888
+  add x16, x16, #888
   ldr x16, [x16]
   br x16
 
 SslComputeClientAuthHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 896
+  add x16, x16, #896
   ldr x16, [x16]
   br x16
 
 SslComputeEapKeyBlock
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 904
+  add x16, x16, #904
   ldr x16, [x16]
   br x16
 
 SslComputeFinishedHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 912
+  add x16, x16, #912
   ldr x16, [x16]
   br x16
 
 SslComputeSessionHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 920
+  add x16, x16, #920
   ldr x16, [x16]
   br x16
 
 SslCreateClientAuthHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 928
+  add x16, x16, #928
   ldr x16, [x16]
   br x16
 
 SslCreateEphemeralKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 936
+  add x16, x16, #936
   ldr x16, [x16]
   br x16
 
 SslCreateHandshakeHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 944
+  add x16, x16, #944
   ldr x16, [x16]
   br x16
 
 SslDecrementProviderReferenceCount
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 952
+  add x16, x16, #952
   ldr x16, [x16]
   br x16
 
 SslDecryptPacket
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 960
+  add x16, x16, #960
   ldr x16, [x16]
   br x16
 
 SslDeriveSessionTicketKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 968
+  add x16, x16, #968
   ldr x16, [x16]
   br x16
 
 SslDuplicateTranscriptHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 976
+  add x16, x16, #976
   ldr x16, [x16]
   br x16
 
 SslEncryptPacket
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 984
+  add x16, x16, #984
   ldr x16, [x16]
   br x16
 
 SslEnumCipherSuites
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 992
+  add x16, x16, #992
   ldr x16, [x16]
   br x16
 
 SslEnumCipherSuitesEx
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1000
+  add x16, x16, #1000
   ldr x16, [x16]
   br x16
 
 SslEnumEccCurves
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1008
+  add x16, x16, #1008
   ldr x16, [x16]
   br x16
 
 SslEnumKeyExchangeParameters
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1016
+  add x16, x16, #1016
   ldr x16, [x16]
   br x16
 
 SslEnumProtocolProviders
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1024
+  add x16, x16, #1024
   ldr x16, [x16]
   br x16
 
 SslExpandBinderKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1032
+  add x16, x16, #1032
   ldr x16, [x16]
   br x16
 
 SslExpandExporterMasterKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1040
+  add x16, x16, #1040
   ldr x16, [x16]
   br x16
 
 SslExpandNextGenTrafficKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1048
+  add x16, x16, #1048
   ldr x16, [x16]
   br x16
 
 SslExpandPreSharedKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1056
+  add x16, x16, #1056
   ldr x16, [x16]
   br x16
 
 SslExpandResumptionMasterKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1064
+  add x16, x16, #1064
   ldr x16, [x16]
   br x16
 
 SslExpandTrafficKeys
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1072
+  add x16, x16, #1072
   ldr x16, [x16]
   br x16
 
 SslExpandWriteKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1080
+  add x16, x16, #1080
   ldr x16, [x16]
   br x16
 
 SslExportKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1088
+  add x16, x16, #1088
   ldr x16, [x16]
   br x16
 
 SslExportKeyingMaterial
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1096
+  add x16, x16, #1096
   ldr x16, [x16]
   br x16
 
 SslExtractEarlyKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1104
+  add x16, x16, #1104
   ldr x16, [x16]
   br x16
 
 SslExtractHandshakeKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1112
+  add x16, x16, #1112
   ldr x16, [x16]
   br x16
 
 SslExtractMasterKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1120
+  add x16, x16, #1120
   ldr x16, [x16]
   br x16
 
 SslFreeBuffer
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1128
+  add x16, x16, #1128
   ldr x16, [x16]
   br x16
 
 SslFreeObject
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1136
+  add x16, x16, #1136
   ldr x16, [x16]
   br x16
 
 SslGenerateMasterKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1144
+  add x16, x16, #1144
   ldr x16, [x16]
   br x16
 
 SslGeneratePreMasterKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1152
+  add x16, x16, #1152
   ldr x16, [x16]
   br x16
 
 SslGenerateSessionKeys
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1160
+  add x16, x16, #1160
   ldr x16, [x16]
   br x16
 
 SslGetCipherSuitePRFHashAlgorithm
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1168
+  add x16, x16, #1168
   ldr x16, [x16]
   br x16
 
 SslGetKeyProperty
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1176
+  add x16, x16, #1176
   ldr x16, [x16]
   br x16
 
 SslGetProviderProperty
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1184
+  add x16, x16, #1184
   ldr x16, [x16]
   br x16
 
 SslGetSessionTicketProtectionHeaderSize
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1192
+  add x16, x16, #1192
   ldr x16, [x16]
   br x16
 
 SslHashHandshake
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1200
+  add x16, x16, #1200
   ldr x16, [x16]
   br x16
 
 SslImportKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1208
+  add x16, x16, #1208
   ldr x16, [x16]
   br x16
 
 SslImportMasterKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1216
+  add x16, x16, #1216
   ldr x16, [x16]
   br x16
 
 SslIncrementProviderReferenceCount
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1224
+  add x16, x16, #1224
   ldr x16, [x16]
   br x16
 
 SslLookupCipherLengths
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1232
+  add x16, x16, #1232
   ldr x16, [x16]
   br x16
 
 SslLookupCipherSuiteInfo
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1240
+  add x16, x16, #1240
   ldr x16, [x16]
   br x16
 
 SslOpenPrivateKey
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1248
+  add x16, x16, #1248
   ldr x16, [x16]
   br x16
 
 SslOpenProvider
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1256
+  add x16, x16, #1256
   ldr x16, [x16]
   br x16
 
 SslProtectSessionTicket
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1264
+  add x16, x16, #1264
   ldr x16, [x16]
   br x16
 
 SslSignHash
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1272
+  add x16, x16, #1272
   ldr x16, [x16]
   br x16
 
 SslUnprotectSessionTicket
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1280
+  add x16, x16, #1280
   ldr x16, [x16]
   br x16
 
 SslVerifySignature
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1288
+  add x16, x16, #1288
   ldr x16, [x16]
   br x16
 

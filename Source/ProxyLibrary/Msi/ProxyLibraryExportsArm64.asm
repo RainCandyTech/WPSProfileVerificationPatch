@@ -301,2065 +301,2065 @@
 DllCanUnloadNow
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 0
+  add x16, x16, #0
   ldr x16, [x16]
   br x16
 
 DllGetClassObject
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 8
+  add x16, x16, #8
   ldr x16, [x16]
   br x16
 
 DllGetVersion
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 16
+  add x16, x16, #16
   ldr x16, [x16]
   br x16
 
 DllRegisterServer
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 24
+  add x16, x16, #24
   ldr x16, [x16]
   br x16
 
 DllUnregisterServer
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 32
+  add x16, x16, #32
   ldr x16, [x16]
   br x16
 
 Migrate10CachedPackagesA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 40
+  add x16, x16, #40
   ldr x16, [x16]
   br x16
 
 Migrate10CachedPackagesW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 48
+  add x16, x16, #48
   ldr x16, [x16]
   br x16
 
 MsiAdvertiseProductA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 56
+  add x16, x16, #56
   ldr x16, [x16]
   br x16
 
 MsiAdvertiseProductExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 64
+  add x16, x16, #64
   ldr x16, [x16]
   br x16
 
 MsiAdvertiseProductExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 72
+  add x16, x16, #72
   ldr x16, [x16]
   br x16
 
 MsiAdvertiseProductW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 80
+  add x16, x16, #80
   ldr x16, [x16]
   br x16
 
 MsiAdvertiseScriptA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 88
+  add x16, x16, #88
   ldr x16, [x16]
   br x16
 
 MsiAdvertiseScriptW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 96
+  add x16, x16, #96
   ldr x16, [x16]
   br x16
 
 MsiApplyMultiplePatchesA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 104
+  add x16, x16, #104
   ldr x16, [x16]
   br x16
 
 MsiApplyMultiplePatchesW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 112
+  add x16, x16, #112
   ldr x16, [x16]
   br x16
 
 MsiApplyPatchA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 120
+  add x16, x16, #120
   ldr x16, [x16]
   br x16
 
 MsiApplyPatchW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 128
+  add x16, x16, #128
   ldr x16, [x16]
   br x16
 
 MsiBeginTransactionA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 136
+  add x16, x16, #136
   ldr x16, [x16]
   br x16
 
 MsiBeginTransactionW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 144
+  add x16, x16, #144
   ldr x16, [x16]
   br x16
 
 MsiCloseAllHandles
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 152
+  add x16, x16, #152
   ldr x16, [x16]
   br x16
 
 MsiCloseHandle
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 160
+  add x16, x16, #160
   ldr x16, [x16]
   br x16
 
 MsiCollectUserInfoA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 168
+  add x16, x16, #168
   ldr x16, [x16]
   br x16
 
 MsiCollectUserInfoW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 176
+  add x16, x16, #176
   ldr x16, [x16]
   br x16
 
 MsiConfigureFeatureA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 184
+  add x16, x16, #184
   ldr x16, [x16]
   br x16
 
 MsiConfigureFeatureFromDescriptorA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 192
+  add x16, x16, #192
   ldr x16, [x16]
   br x16
 
 MsiConfigureFeatureFromDescriptorW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 200
+  add x16, x16, #200
   ldr x16, [x16]
   br x16
 
 MsiConfigureFeatureW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 208
+  add x16, x16, #208
   ldr x16, [x16]
   br x16
 
 MsiConfigureProductA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 216
+  add x16, x16, #216
   ldr x16, [x16]
   br x16
 
 MsiConfigureProductExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 224
+  add x16, x16, #224
   ldr x16, [x16]
   br x16
 
 MsiConfigureProductExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 232
+  add x16, x16, #232
   ldr x16, [x16]
   br x16
 
 MsiConfigureProductW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 240
+  add x16, x16, #240
   ldr x16, [x16]
   br x16
 
 MsiCreateAndVerifyInstallerDirectory
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 248
+  add x16, x16, #248
   ldr x16, [x16]
   br x16
 
 MsiCreateRecord
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 256
+  add x16, x16, #256
   ldr x16, [x16]
   br x16
 
 MsiCreateTransformSummaryInfoA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 264
+  add x16, x16, #264
   ldr x16, [x16]
   br x16
 
 MsiCreateTransformSummaryInfoW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 272
+  add x16, x16, #272
   ldr x16, [x16]
   br x16
 
 MsiDatabaseApplyTransformA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 280
+  add x16, x16, #280
   ldr x16, [x16]
   br x16
 
 MsiDatabaseApplyTransformW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 288
+  add x16, x16, #288
   ldr x16, [x16]
   br x16
 
 MsiDatabaseCommit
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 296
+  add x16, x16, #296
   ldr x16, [x16]
   br x16
 
 MsiDatabaseExportA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 304
+  add x16, x16, #304
   ldr x16, [x16]
   br x16
 
 MsiDatabaseExportW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 312
+  add x16, x16, #312
   ldr x16, [x16]
   br x16
 
 MsiDatabaseGenerateTransformA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 320
+  add x16, x16, #320
   ldr x16, [x16]
   br x16
 
 MsiDatabaseGenerateTransformW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 328
+  add x16, x16, #328
   ldr x16, [x16]
   br x16
 
 MsiDatabaseGetPrimaryKeysA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 336
+  add x16, x16, #336
   ldr x16, [x16]
   br x16
 
 MsiDatabaseGetPrimaryKeysW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 344
+  add x16, x16, #344
   ldr x16, [x16]
   br x16
 
 MsiDatabaseImportA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 352
+  add x16, x16, #352
   ldr x16, [x16]
   br x16
 
 MsiDatabaseImportW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 360
+  add x16, x16, #360
   ldr x16, [x16]
   br x16
 
 MsiDatabaseIsTablePersistentA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 368
+  add x16, x16, #368
   ldr x16, [x16]
   br x16
 
 MsiDatabaseIsTablePersistentW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 376
+  add x16, x16, #376
   ldr x16, [x16]
   br x16
 
 MsiDatabaseMergeA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 384
+  add x16, x16, #384
   ldr x16, [x16]
   br x16
 
 MsiDatabaseMergeW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 392
+  add x16, x16, #392
   ldr x16, [x16]
   br x16
 
 MsiDatabaseOpenViewA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 400
+  add x16, x16, #400
   ldr x16, [x16]
   br x16
 
 MsiDatabaseOpenViewW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 408
+  add x16, x16, #408
   ldr x16, [x16]
   br x16
 
 MsiDecomposeDescriptorA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 416
+  add x16, x16, #416
   ldr x16, [x16]
   br x16
 
 MsiDecomposeDescriptorW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 424
+  add x16, x16, #424
   ldr x16, [x16]
   br x16
 
 MsiDeleteUserDataA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 432
+  add x16, x16, #432
   ldr x16, [x16]
   br x16
 
 MsiDeleteUserDataW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 440
+  add x16, x16, #440
   ldr x16, [x16]
   br x16
 
 MsiDetermineApplicablePatchesA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 448
+  add x16, x16, #448
   ldr x16, [x16]
   br x16
 
 MsiDetermineApplicablePatchesW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 456
+  add x16, x16, #456
   ldr x16, [x16]
   br x16
 
 MsiDeterminePatchSequenceA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 464
+  add x16, x16, #464
   ldr x16, [x16]
   br x16
 
 MsiDeterminePatchSequenceW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 472
+  add x16, x16, #472
   ldr x16, [x16]
   br x16
 
 MsiDoActionA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 480
+  add x16, x16, #480
   ldr x16, [x16]
   br x16
 
 MsiDoActionW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 488
+  add x16, x16, #488
   ldr x16, [x16]
   br x16
 
 MsiEnableLogA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 496
+  add x16, x16, #496
   ldr x16, [x16]
   br x16
 
 MsiEnableLogW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 504
+  add x16, x16, #504
   ldr x16, [x16]
   br x16
 
 MsiEnableUIPreview
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 512
+  add x16, x16, #512
   ldr x16, [x16]
   br x16
 
 MsiEndTransaction
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 520
+  add x16, x16, #520
   ldr x16, [x16]
   br x16
 
 MsiEnumClientsA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 528
+  add x16, x16, #528
   ldr x16, [x16]
   br x16
 
 MsiEnumClientsExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 536
+  add x16, x16, #536
   ldr x16, [x16]
   br x16
 
 MsiEnumClientsExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 544
+  add x16, x16, #544
   ldr x16, [x16]
   br x16
 
 MsiEnumClientsW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 552
+  add x16, x16, #552
   ldr x16, [x16]
   br x16
 
 MsiEnumComponentCostsA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 560
+  add x16, x16, #560
   ldr x16, [x16]
   br x16
 
 MsiEnumComponentCostsW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 568
+  add x16, x16, #568
   ldr x16, [x16]
   br x16
 
 MsiEnumComponentQualifiersA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 576
+  add x16, x16, #576
   ldr x16, [x16]
   br x16
 
 MsiEnumComponentQualifiersW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 584
+  add x16, x16, #584
   ldr x16, [x16]
   br x16
 
 MsiEnumComponentsA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 592
+  add x16, x16, #592
   ldr x16, [x16]
   br x16
 
 MsiEnumComponentsExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 600
+  add x16, x16, #600
   ldr x16, [x16]
   br x16
 
 MsiEnumComponentsExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 608
+  add x16, x16, #608
   ldr x16, [x16]
   br x16
 
 MsiEnumComponentsW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 616
+  add x16, x16, #616
   ldr x16, [x16]
   br x16
 
 MsiEnumFeaturesA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 624
+  add x16, x16, #624
   ldr x16, [x16]
   br x16
 
 MsiEnumFeaturesW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 632
+  add x16, x16, #632
   ldr x16, [x16]
   br x16
 
 MsiEnumPatchesA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 640
+  add x16, x16, #640
   ldr x16, [x16]
   br x16
 
 MsiEnumPatchesExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 648
+  add x16, x16, #648
   ldr x16, [x16]
   br x16
 
 MsiEnumPatchesExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 656
+  add x16, x16, #656
   ldr x16, [x16]
   br x16
 
 MsiEnumPatchesW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 664
+  add x16, x16, #664
   ldr x16, [x16]
   br x16
 
 MsiEnumProductsA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 672
+  add x16, x16, #672
   ldr x16, [x16]
   br x16
 
 MsiEnumProductsExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 680
+  add x16, x16, #680
   ldr x16, [x16]
   br x16
 
 MsiEnumProductsExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 688
+  add x16, x16, #688
   ldr x16, [x16]
   br x16
 
 MsiEnumProductsW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 696
+  add x16, x16, #696
   ldr x16, [x16]
   br x16
 
 MsiEnumRelatedProductsA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 704
+  add x16, x16, #704
   ldr x16, [x16]
   br x16
 
 MsiEnumRelatedProductsW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 712
+  add x16, x16, #712
   ldr x16, [x16]
   br x16
 
 MsiEvaluateConditionA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 720
+  add x16, x16, #720
   ldr x16, [x16]
   br x16
 
 MsiEvaluateConditionW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 728
+  add x16, x16, #728
   ldr x16, [x16]
   br x16
 
 MsiExtractPatchXMLDataA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 736
+  add x16, x16, #736
   ldr x16, [x16]
   br x16
 
 MsiExtractPatchXMLDataW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 744
+  add x16, x16, #744
   ldr x16, [x16]
   br x16
 
 MsiFormatRecordA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 752
+  add x16, x16, #752
   ldr x16, [x16]
   br x16
 
 MsiFormatRecordW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 760
+  add x16, x16, #760
   ldr x16, [x16]
   br x16
 
 MsiGetActiveDatabase
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 768
+  add x16, x16, #768
   ldr x16, [x16]
   br x16
 
 MsiGetComponentPathA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 776
+  add x16, x16, #776
   ldr x16, [x16]
   br x16
 
 MsiGetComponentPathExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 784
+  add x16, x16, #784
   ldr x16, [x16]
   br x16
 
 MsiGetComponentPathExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 792
+  add x16, x16, #792
   ldr x16, [x16]
   br x16
 
 MsiGetComponentPathW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 800
+  add x16, x16, #800
   ldr x16, [x16]
   br x16
 
 MsiGetComponentStateA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 808
+  add x16, x16, #808
   ldr x16, [x16]
   br x16
 
 MsiGetComponentStateW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 816
+  add x16, x16, #816
   ldr x16, [x16]
   br x16
 
 MsiGetDatabaseState
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 824
+  add x16, x16, #824
   ldr x16, [x16]
   br x16
 
 MsiGetFeatureCostA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 832
+  add x16, x16, #832
   ldr x16, [x16]
   br x16
 
 MsiGetFeatureCostW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 840
+  add x16, x16, #840
   ldr x16, [x16]
   br x16
 
 MsiGetFeatureInfoA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 848
+  add x16, x16, #848
   ldr x16, [x16]
   br x16
 
 MsiGetFeatureInfoW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 856
+  add x16, x16, #856
   ldr x16, [x16]
   br x16
 
 MsiGetFeatureStateA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 864
+  add x16, x16, #864
   ldr x16, [x16]
   br x16
 
 MsiGetFeatureStateW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 872
+  add x16, x16, #872
   ldr x16, [x16]
   br x16
 
 MsiGetFeatureUsageA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 880
+  add x16, x16, #880
   ldr x16, [x16]
   br x16
 
 MsiGetFeatureUsageW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 888
+  add x16, x16, #888
   ldr x16, [x16]
   br x16
 
 MsiGetFeatureValidStatesA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 896
+  add x16, x16, #896
   ldr x16, [x16]
   br x16
 
 MsiGetFeatureValidStatesW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 904
+  add x16, x16, #904
   ldr x16, [x16]
   br x16
 
 MsiGetFileHashA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 912
+  add x16, x16, #912
   ldr x16, [x16]
   br x16
 
 MsiGetFileHashW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 920
+  add x16, x16, #920
   ldr x16, [x16]
   br x16
 
 MsiGetFileSignatureInformationA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 928
+  add x16, x16, #928
   ldr x16, [x16]
   br x16
 
 MsiGetFileSignatureInformationW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 936
+  add x16, x16, #936
   ldr x16, [x16]
   br x16
 
 MsiGetFileVersionA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 944
+  add x16, x16, #944
   ldr x16, [x16]
   br x16
 
 MsiGetFileVersionW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 952
+  add x16, x16, #952
   ldr x16, [x16]
   br x16
 
 MsiGetLanguage
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 960
+  add x16, x16, #960
   ldr x16, [x16]
   br x16
 
 MsiGetLastErrorRecord
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 968
+  add x16, x16, #968
   ldr x16, [x16]
   br x16
 
 MsiGetMode
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 976
+  add x16, x16, #976
   ldr x16, [x16]
   br x16
 
 MsiGetPatchFileListA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 984
+  add x16, x16, #984
   ldr x16, [x16]
   br x16
 
 MsiGetPatchFileListW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 992
+  add x16, x16, #992
   ldr x16, [x16]
   br x16
 
 MsiGetPatchInfoA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1000
+  add x16, x16, #1000
   ldr x16, [x16]
   br x16
 
 MsiGetPatchInfoExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1008
+  add x16, x16, #1008
   ldr x16, [x16]
   br x16
 
 MsiGetPatchInfoExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1016
+  add x16, x16, #1016
   ldr x16, [x16]
   br x16
 
 MsiGetPatchInfoW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1024
+  add x16, x16, #1024
   ldr x16, [x16]
   br x16
 
 MsiGetProductCodeA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1032
+  add x16, x16, #1032
   ldr x16, [x16]
   br x16
 
 MsiGetProductCodeFromPackageCodeA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1040
+  add x16, x16, #1040
   ldr x16, [x16]
   br x16
 
 MsiGetProductCodeFromPackageCodeW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1048
+  add x16, x16, #1048
   ldr x16, [x16]
   br x16
 
 MsiGetProductCodeW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1056
+  add x16, x16, #1056
   ldr x16, [x16]
   br x16
 
 MsiGetProductInfoA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1064
+  add x16, x16, #1064
   ldr x16, [x16]
   br x16
 
 MsiGetProductInfoExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1072
+  add x16, x16, #1072
   ldr x16, [x16]
   br x16
 
 MsiGetProductInfoExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1080
+  add x16, x16, #1080
   ldr x16, [x16]
   br x16
 
 MsiGetProductInfoFromScriptA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1088
+  add x16, x16, #1088
   ldr x16, [x16]
   br x16
 
 MsiGetProductInfoFromScriptW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1096
+  add x16, x16, #1096
   ldr x16, [x16]
   br x16
 
 MsiGetProductInfoW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1104
+  add x16, x16, #1104
   ldr x16, [x16]
   br x16
 
 MsiGetProductPropertyA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1112
+  add x16, x16, #1112
   ldr x16, [x16]
   br x16
 
 MsiGetProductPropertyW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1120
+  add x16, x16, #1120
   ldr x16, [x16]
   br x16
 
 MsiGetPropertyA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1128
+  add x16, x16, #1128
   ldr x16, [x16]
   br x16
 
 MsiGetPropertyW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1136
+  add x16, x16, #1136
   ldr x16, [x16]
   br x16
 
 MsiGetShortcutTargetA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1144
+  add x16, x16, #1144
   ldr x16, [x16]
   br x16
 
 MsiGetShortcutTargetW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1152
+  add x16, x16, #1152
   ldr x16, [x16]
   br x16
 
 MsiGetSourcePathA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1160
+  add x16, x16, #1160
   ldr x16, [x16]
   br x16
 
 MsiGetSourcePathW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1168
+  add x16, x16, #1168
   ldr x16, [x16]
   br x16
 
 MsiGetSummaryInformationA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1176
+  add x16, x16, #1176
   ldr x16, [x16]
   br x16
 
 MsiGetSummaryInformationW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1184
+  add x16, x16, #1184
   ldr x16, [x16]
   br x16
 
 MsiGetTargetPathA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1192
+  add x16, x16, #1192
   ldr x16, [x16]
   br x16
 
 MsiGetTargetPathW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1200
+  add x16, x16, #1200
   ldr x16, [x16]
   br x16
 
 MsiGetUserInfoA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1208
+  add x16, x16, #1208
   ldr x16, [x16]
   br x16
 
 MsiGetUserInfoW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1216
+  add x16, x16, #1216
   ldr x16, [x16]
   br x16
 
 MsiInstallMissingComponentA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1224
+  add x16, x16, #1224
   ldr x16, [x16]
   br x16
 
 MsiInstallMissingComponentW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1232
+  add x16, x16, #1232
   ldr x16, [x16]
   br x16
 
 MsiInstallMissingFileA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1240
+  add x16, x16, #1240
   ldr x16, [x16]
   br x16
 
 MsiInstallMissingFileW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1248
+  add x16, x16, #1248
   ldr x16, [x16]
   br x16
 
 MsiInstallProductA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1256
+  add x16, x16, #1256
   ldr x16, [x16]
   br x16
 
 MsiInstallProductW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1264
+  add x16, x16, #1264
   ldr x16, [x16]
   br x16
 
 MsiInvalidateFeatureCache
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1272
+  add x16, x16, #1272
   ldr x16, [x16]
   br x16
 
 MsiIsProductElevatedA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1280
+  add x16, x16, #1280
   ldr x16, [x16]
   br x16
 
 MsiIsProductElevatedW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1288
+  add x16, x16, #1288
   ldr x16, [x16]
   br x16
 
 MsiJoinTransaction
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1296
+  add x16, x16, #1296
   ldr x16, [x16]
   br x16
 
 MsiLoadStringA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1304
+  add x16, x16, #1304
   ldr x16, [x16]
   br x16
 
 MsiLoadStringW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1312
+  add x16, x16, #1312
   ldr x16, [x16]
   br x16
 
 MsiLocateComponentA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1320
+  add x16, x16, #1320
   ldr x16, [x16]
   br x16
 
 MsiLocateComponentW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1328
+  add x16, x16, #1328
   ldr x16, [x16]
   br x16
 
 MsiMessageBoxA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1336
+  add x16, x16, #1336
   ldr x16, [x16]
   br x16
 
 MsiMessageBoxExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1344
+  add x16, x16, #1344
   ldr x16, [x16]
   br x16
 
 MsiMessageBoxExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1352
+  add x16, x16, #1352
   ldr x16, [x16]
   br x16
 
 MsiMessageBoxW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1360
+  add x16, x16, #1360
   ldr x16, [x16]
   br x16
 
 MsiNotifySidChangeA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1368
+  add x16, x16, #1368
   ldr x16, [x16]
   br x16
 
 MsiNotifySidChangeW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1376
+  add x16, x16, #1376
   ldr x16, [x16]
   br x16
 
 MsiOpenDatabaseA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1384
+  add x16, x16, #1384
   ldr x16, [x16]
   br x16
 
 MsiOpenDatabaseW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1392
+  add x16, x16, #1392
   ldr x16, [x16]
   br x16
 
 MsiOpenPackageA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1400
+  add x16, x16, #1400
   ldr x16, [x16]
   br x16
 
 MsiOpenPackageExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1408
+  add x16, x16, #1408
   ldr x16, [x16]
   br x16
 
 MsiOpenPackageExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1416
+  add x16, x16, #1416
   ldr x16, [x16]
   br x16
 
 MsiOpenPackageW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1424
+  add x16, x16, #1424
   ldr x16, [x16]
   br x16
 
 MsiOpenProductA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1432
+  add x16, x16, #1432
   ldr x16, [x16]
   br x16
 
 MsiOpenProductW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1440
+  add x16, x16, #1440
   ldr x16, [x16]
   br x16
 
 MsiPreviewBillboardA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1448
+  add x16, x16, #1448
   ldr x16, [x16]
   br x16
 
 MsiPreviewBillboardW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1456
+  add x16, x16, #1456
   ldr x16, [x16]
   br x16
 
 MsiPreviewDialogA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1464
+  add x16, x16, #1464
   ldr x16, [x16]
   br x16
 
 MsiPreviewDialogW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1472
+  add x16, x16, #1472
   ldr x16, [x16]
   br x16
 
 MsiProcessAdvertiseScriptA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1480
+  add x16, x16, #1480
   ldr x16, [x16]
   br x16
 
 MsiProcessAdvertiseScriptW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1488
+  add x16, x16, #1488
   ldr x16, [x16]
   br x16
 
 MsiProcessMessage
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1496
+  add x16, x16, #1496
   ldr x16, [x16]
   br x16
 
 MsiProvideAssemblyA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1504
+  add x16, x16, #1504
   ldr x16, [x16]
   br x16
 
 MsiProvideAssemblyW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1512
+  add x16, x16, #1512
   ldr x16, [x16]
   br x16
 
 MsiProvideComponentA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1520
+  add x16, x16, #1520
   ldr x16, [x16]
   br x16
 
 MsiProvideComponentFromDescriptorA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1528
+  add x16, x16, #1528
   ldr x16, [x16]
   br x16
 
 MsiProvideComponentFromDescriptorW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1536
+  add x16, x16, #1536
   ldr x16, [x16]
   br x16
 
 MsiProvideComponentW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1544
+  add x16, x16, #1544
   ldr x16, [x16]
   br x16
 
 MsiProvideQualifiedComponentA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1552
+  add x16, x16, #1552
   ldr x16, [x16]
   br x16
 
 MsiProvideQualifiedComponentExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1560
+  add x16, x16, #1560
   ldr x16, [x16]
   br x16
 
 MsiProvideQualifiedComponentExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1568
+  add x16, x16, #1568
   ldr x16, [x16]
   br x16
 
 MsiProvideQualifiedComponentW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1576
+  add x16, x16, #1576
   ldr x16, [x16]
   br x16
 
 MsiQueryComponentStateA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1584
+  add x16, x16, #1584
   ldr x16, [x16]
   br x16
 
 MsiQueryComponentStateW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1592
+  add x16, x16, #1592
   ldr x16, [x16]
   br x16
 
 MsiQueryFeatureStateA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1600
+  add x16, x16, #1600
   ldr x16, [x16]
   br x16
 
 MsiQueryFeatureStateExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1608
+  add x16, x16, #1608
   ldr x16, [x16]
   br x16
 
 MsiQueryFeatureStateExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1616
+  add x16, x16, #1616
   ldr x16, [x16]
   br x16
 
 MsiQueryFeatureStateFromDescriptorA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1624
+  add x16, x16, #1624
   ldr x16, [x16]
   br x16
 
 MsiQueryFeatureStateFromDescriptorW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1632
+  add x16, x16, #1632
   ldr x16, [x16]
   br x16
 
 MsiQueryFeatureStateW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1640
+  add x16, x16, #1640
   ldr x16, [x16]
   br x16
 
 MsiQueryProductStateA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1648
+  add x16, x16, #1648
   ldr x16, [x16]
   br x16
 
 MsiQueryProductStateW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1656
+  add x16, x16, #1656
   ldr x16, [x16]
   br x16
 
 MsiRecordClearData
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1664
+  add x16, x16, #1664
   ldr x16, [x16]
   br x16
 
 MsiRecordDataSize
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1672
+  add x16, x16, #1672
   ldr x16, [x16]
   br x16
 
 MsiRecordGetFieldCount
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1680
+  add x16, x16, #1680
   ldr x16, [x16]
   br x16
 
 MsiRecordGetInteger
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1688
+  add x16, x16, #1688
   ldr x16, [x16]
   br x16
 
 MsiRecordGetStringA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1696
+  add x16, x16, #1696
   ldr x16, [x16]
   br x16
 
 MsiRecordGetStringW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1704
+  add x16, x16, #1704
   ldr x16, [x16]
   br x16
 
 MsiRecordIsNull
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1712
+  add x16, x16, #1712
   ldr x16, [x16]
   br x16
 
 MsiRecordReadStream
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1720
+  add x16, x16, #1720
   ldr x16, [x16]
   br x16
 
 MsiRecordSetInteger
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1728
+  add x16, x16, #1728
   ldr x16, [x16]
   br x16
 
 MsiRecordSetStreamA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1736
+  add x16, x16, #1736
   ldr x16, [x16]
   br x16
 
 MsiRecordSetStreamW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1744
+  add x16, x16, #1744
   ldr x16, [x16]
   br x16
 
 MsiRecordSetStringA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1752
+  add x16, x16, #1752
   ldr x16, [x16]
   br x16
 
 MsiRecordSetStringW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1760
+  add x16, x16, #1760
   ldr x16, [x16]
   br x16
 
 MsiReinstallFeatureA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1768
+  add x16, x16, #1768
   ldr x16, [x16]
   br x16
 
 MsiReinstallFeatureFromDescriptorA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1776
+  add x16, x16, #1776
   ldr x16, [x16]
   br x16
 
 MsiReinstallFeatureFromDescriptorW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1784
+  add x16, x16, #1784
   ldr x16, [x16]
   br x16
 
 MsiReinstallFeatureW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1792
+  add x16, x16, #1792
   ldr x16, [x16]
   br x16
 
 MsiReinstallProductA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1800
+  add x16, x16, #1800
   ldr x16, [x16]
   br x16
 
 MsiReinstallProductW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1808
+  add x16, x16, #1808
   ldr x16, [x16]
   br x16
 
 MsiRemovePatchesA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1816
+  add x16, x16, #1816
   ldr x16, [x16]
   br x16
 
 MsiRemovePatchesW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1824
+  add x16, x16, #1824
   ldr x16, [x16]
   br x16
 
 MsiSequenceA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1832
+  add x16, x16, #1832
   ldr x16, [x16]
   br x16
 
 MsiSequenceW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1840
+  add x16, x16, #1840
   ldr x16, [x16]
   br x16
 
 MsiSetComponentStateA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1848
+  add x16, x16, #1848
   ldr x16, [x16]
   br x16
 
 MsiSetComponentStateW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1856
+  add x16, x16, #1856
   ldr x16, [x16]
   br x16
 
 MsiSetExternalUIA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1864
+  add x16, x16, #1864
   ldr x16, [x16]
   br x16
 
 MsiSetExternalUIRecord
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1872
+  add x16, x16, #1872
   ldr x16, [x16]
   br x16
 
 MsiSetExternalUIW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1880
+  add x16, x16, #1880
   ldr x16, [x16]
   br x16
 
 MsiSetFeatureAttributesA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1888
+  add x16, x16, #1888
   ldr x16, [x16]
   br x16
 
 MsiSetFeatureAttributesW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1896
+  add x16, x16, #1896
   ldr x16, [x16]
   br x16
 
 MsiSetFeatureStateA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1904
+  add x16, x16, #1904
   ldr x16, [x16]
   br x16
 
 MsiSetFeatureStateW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1912
+  add x16, x16, #1912
   ldr x16, [x16]
   br x16
 
 MsiSetInstallLevel
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1920
+  add x16, x16, #1920
   ldr x16, [x16]
   br x16
 
 MsiSetInternalUI
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1928
+  add x16, x16, #1928
   ldr x16, [x16]
   br x16
 
 MsiSetMode
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1936
+  add x16, x16, #1936
   ldr x16, [x16]
   br x16
 
 MsiSetOfflineContextW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1944
+  add x16, x16, #1944
   ldr x16, [x16]
   br x16
 
 MsiSetPropertyA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1952
+  add x16, x16, #1952
   ldr x16, [x16]
   br x16
 
 MsiSetPropertyW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1960
+  add x16, x16, #1960
   ldr x16, [x16]
   br x16
 
 MsiSetTargetPathA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1968
+  add x16, x16, #1968
   ldr x16, [x16]
   br x16
 
 MsiSetTargetPathW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1976
+  add x16, x16, #1976
   ldr x16, [x16]
   br x16
 
 MsiSourceListAddMediaDiskA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1984
+  add x16, x16, #1984
   ldr x16, [x16]
   br x16
 
 MsiSourceListAddMediaDiskW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 1992
+  add x16, x16, #1992
   ldr x16, [x16]
   br x16
 
 MsiSourceListAddSourceA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2000
+  add x16, x16, #2000
   ldr x16, [x16]
   br x16
 
 MsiSourceListAddSourceExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2008
+  add x16, x16, #2008
   ldr x16, [x16]
   br x16
 
 MsiSourceListAddSourceExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2016
+  add x16, x16, #2016
   ldr x16, [x16]
   br x16
 
 MsiSourceListAddSourceW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2024
+  add x16, x16, #2024
   ldr x16, [x16]
   br x16
 
 MsiSourceListClearAllA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2032
+  add x16, x16, #2032
   ldr x16, [x16]
   br x16
 
 MsiSourceListClearAllExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2040
+  add x16, x16, #2040
   ldr x16, [x16]
   br x16
 
 MsiSourceListClearAllExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2048
+  add x16, x16, #2048
   ldr x16, [x16]
   br x16
 
 MsiSourceListClearAllW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2056
+  add x16, x16, #2056
   ldr x16, [x16]
   br x16
 
 MsiSourceListClearMediaDiskA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2064
+  add x16, x16, #2064
   ldr x16, [x16]
   br x16
 
 MsiSourceListClearMediaDiskW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2072
+  add x16, x16, #2072
   ldr x16, [x16]
   br x16
 
 MsiSourceListClearSourceA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2080
+  add x16, x16, #2080
   ldr x16, [x16]
   br x16
 
 MsiSourceListClearSourceW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2088
+  add x16, x16, #2088
   ldr x16, [x16]
   br x16
 
 MsiSourceListEnumMediaDisksA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2096
+  add x16, x16, #2096
   ldr x16, [x16]
   br x16
 
 MsiSourceListEnumMediaDisksW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2104
+  add x16, x16, #2104
   ldr x16, [x16]
   br x16
 
 MsiSourceListEnumSourcesA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2112
+  add x16, x16, #2112
   ldr x16, [x16]
   br x16
 
 MsiSourceListEnumSourcesW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2120
+  add x16, x16, #2120
   ldr x16, [x16]
   br x16
 
 MsiSourceListForceResolutionA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2128
+  add x16, x16, #2128
   ldr x16, [x16]
   br x16
 
 MsiSourceListForceResolutionExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2136
+  add x16, x16, #2136
   ldr x16, [x16]
   br x16
 
 MsiSourceListForceResolutionExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2144
+  add x16, x16, #2144
   ldr x16, [x16]
   br x16
 
 MsiSourceListForceResolutionW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2152
+  add x16, x16, #2152
   ldr x16, [x16]
   br x16
 
 MsiSourceListGetInfoA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2160
+  add x16, x16, #2160
   ldr x16, [x16]
   br x16
 
 MsiSourceListGetInfoW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2168
+  add x16, x16, #2168
   ldr x16, [x16]
   br x16
 
 MsiSourceListSetInfoA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2176
+  add x16, x16, #2176
   ldr x16, [x16]
   br x16
 
 MsiSourceListSetInfoW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2184
+  add x16, x16, #2184
   ldr x16, [x16]
   br x16
 
 MsiSummaryInfoGetPropertyA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2192
+  add x16, x16, #2192
   ldr x16, [x16]
   br x16
 
 MsiSummaryInfoGetPropertyCount
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2200
+  add x16, x16, #2200
   ldr x16, [x16]
   br x16
 
 MsiSummaryInfoGetPropertyW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2208
+  add x16, x16, #2208
   ldr x16, [x16]
   br x16
 
 MsiSummaryInfoPersist
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2216
+  add x16, x16, #2216
   ldr x16, [x16]
   br x16
 
 MsiSummaryInfoSetPropertyA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2224
+  add x16, x16, #2224
   ldr x16, [x16]
   br x16
 
 MsiSummaryInfoSetPropertyW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2232
+  add x16, x16, #2232
   ldr x16, [x16]
   br x16
 
 MsiUseFeatureA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2240
+  add x16, x16, #2240
   ldr x16, [x16]
   br x16
 
 MsiUseFeatureExA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2248
+  add x16, x16, #2248
   ldr x16, [x16]
   br x16
 
 MsiUseFeatureExW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2256
+  add x16, x16, #2256
   ldr x16, [x16]
   br x16
 
 MsiUseFeatureW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2264
+  add x16, x16, #2264
   ldr x16, [x16]
   br x16
 
 MsiVerifyDiskSpace
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2272
+  add x16, x16, #2272
   ldr x16, [x16]
   br x16
 
 MsiVerifyPackageA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2280
+  add x16, x16, #2280
   ldr x16, [x16]
   br x16
 
 MsiVerifyPackageW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2288
+  add x16, x16, #2288
   ldr x16, [x16]
   br x16
 
 MsiViewClose
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2296
+  add x16, x16, #2296
   ldr x16, [x16]
   br x16
 
 MsiViewExecute
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2304
+  add x16, x16, #2304
   ldr x16, [x16]
   br x16
 
 MsiViewFetch
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2312
+  add x16, x16, #2312
   ldr x16, [x16]
   br x16
 
 MsiViewGetColumnInfo
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2320
+  add x16, x16, #2320
   ldr x16, [x16]
   br x16
 
 MsiViewGetErrorA
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2328
+  add x16, x16, #2328
   ldr x16, [x16]
   br x16
 
 MsiViewGetErrorW
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2336
+  add x16, x16, #2336
   ldr x16, [x16]
   br x16
 
 MsiViewModify
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2344
+  add x16, x16, #2344
   ldr x16, [x16]
   br x16
 
 QueryInstanceCount
   adrp x16, symbolAddressArray
   add x16, x16, symbolAddressArray
-  add x16, x16, 2352
+  add x16, x16, #2352
   ldr x16, [x16]
   br x16
 
