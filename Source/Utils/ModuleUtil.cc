@@ -68,9 +68,7 @@ namespace WPSProfileVerificationPatch {
         return fileName;
     }
 
-    std::vector<std::span<const uint8_t>> ModuleUtil::GetExecutableMemoryRegions(HMODULE module) {
-        std::vector<std::span<const uint8_t>> regions;
-
+    std::span<const uint8_t> ModuleUtil::GetMemoryRegion(HMODULE module) {
         if (!module) {
             module = GetHandleW(std::nullopt);
         }
@@ -79,35 +77,15 @@ namespace WPSProfileVerificationPatch {
 
         PIMAGE_DOS_HEADER dosHeader = reinterpret_cast<PIMAGE_DOS_HEADER>(base);
         if (dosHeader->e_magic != IMAGE_DOS_SIGNATURE) {
-            return regions;
+            throw std::runtime_error("Invalid DOS header signature.");
         }
 
         PIMAGE_NT_HEADERS ntHeaders = reinterpret_cast<PIMAGE_NT_HEADERS>(base + dosHeader->e_lfanew);
         if (ntHeaders->Signature != IMAGE_NT_SIGNATURE) {
-            return regions;
+            throw std::runtime_error("Invalid NT header signature.");
         }
 
         SIZE_T sizeOfImage = ntHeaders->OptionalHeader.SizeOfImage;
-
-        LPBYTE addr = base;
-        LPBYTE end = base + sizeOfImage;
-        MEMORY_BASIC_INFORMATION mbi;
-
-        while (addr < end) {
-            if (!VirtualQuery(addr, &mbi, sizeof(mbi))) {
-                break;
-            }
-
-            if (mbi.State == MEM_COMMIT) {
-                DWORD protect = mbi.Protect;
-                if ((protect & (PAGE_EXECUTE | PAGE_EXECUTE_READ | PAGE_EXECUTE_READWRITE | PAGE_EXECUTE_WRITECOPY)) && !(protect & (PAGE_NOACCESS | PAGE_GUARD))) {
-                    regions.push_back(std::span<const uint8_t>(reinterpret_cast<const uint8_t*>(mbi.BaseAddress), mbi.RegionSize));
-                }
-            }
-
-            addr = static_cast<LPBYTE>(mbi.BaseAddress) + mbi.RegionSize;
-        }
-
-        return regions;
+        return std::span<const uint8_t>(reinterpret_cast<const uint8_t*>(base), base + sizeOfImage);
     }
 }

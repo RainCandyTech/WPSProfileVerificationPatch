@@ -68,13 +68,13 @@ namespace WPSProfileVerificationPatch {
             // ProductName 不是 WPS Office，不进行 Hook
             throw std::runtime_error("ProductName is not WPS Office");
         }
-        std::vector<std::span<const uint8_t>> regions;
+        std::span<const uint8_t> region;
 #if defined WP_PACKET
         std::optional<std::span<const uint8_t>> internalName = VersionUtil::QueryVersionInfoValueW(versionInfoData, std::format(L"\\StringFileInfo\\{:04x}{:04x}\\InternalName", langId, codePage));
         if (internalName.has_value() && internalName->size() >= 8 && std::memcmp(internalName->data(), L"KPacket", 14) == 0) {
             // InternalName 以 KPacket 开头表明这是安装程序，要在主模块中查找特征码
             HMODULE module = ModuleUtil::GetHandleW(std::nullopt);
-            regions = ModuleUtil::GetExecutableMemoryRegions(module);
+            region = ModuleUtil::GetMemoryRegion();
         } else {
             throw std::runtime_error("KRSAVerifyFileHook can only be installed in the installer module");
         }
@@ -88,7 +88,7 @@ namespace WPSProfileVerificationPatch {
             if (!krtModule) {
                 throw std::runtime_error("Failed to load krt.dll");
             }
-            regions = ModuleUtil::GetExecutableMemoryRegions(krtModule);
+            region = ModuleUtil::GetMemoryRegion(krtModule);
         } else {
             throw std::runtime_error("KRSAVerifyFileHook can only be installed in the main module with krt.dll loaded");
         }
@@ -100,7 +100,7 @@ namespace WPSProfileVerificationPatch {
 #else
         constexpr size_t maxMatches = 1;
 #endif
-        std::vector<const uint8_t*> anchors = PatternUtil::FindPatternInRegions(regions, anchor, 0, false, maxMatches);
+        std::vector<const uint8_t*> anchors = PatternUtil::FindPattern(region, anchor, 0, false, maxMatches);
         if (anchors.size() == 0) {
             throw std::runtime_error("Failed to find KRSAVerifyFile anchor");
         }
@@ -109,11 +109,7 @@ namespace WPSProfileVerificationPatch {
             throw std::runtime_error("Multiple KRSAVerifyFile anchors found");
         }
 #endif
-        std::optional<std::span<const uint8_t>> region = PatternUtil::FindRegionContaining(regions, anchors[0]);
-        if (!region.has_value()) {
-            throw std::runtime_error("Failed to find anchors region");
-        }
-        std::vector<const uint8_t*> prologues = PatternUtil::FindPattern(region.value(), prologue, anchors[0] - region.value().data(), true, 1);
+        std::vector<const uint8_t*> prologues = PatternUtil::FindPattern(region, prologue, anchors[0] - region.data(), true, 1);
         if (prologues.size() == 0) {
             throw std::runtime_error("Failed to find KRSAVerifyFile prologue");
         }
